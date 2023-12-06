@@ -68,21 +68,18 @@
 
     .aside-1 {
         flex: 1 100%;
+      order: 4;
     }
 }
 
-
-@media screen and (max-width: 992px) and (min-width: 768px) {
-    .wrapper1 .main {
-        width: 100%;
+@media screen and (max-width: 768px) {
+    .wrapper1,
+    .main,
+    .aside {
+      width: 100%;
     }
 
     .aside-1 {
-        flex: 1 100%;
-        order: 4;
+      order: 2;
     }
-}
-
-.aside-1 {
-    order: 2;
-}
+  }
